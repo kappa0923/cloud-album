@@ -9,4 +9,10 @@
     tools:context="jp.cloud.marking.android.cloudalbum.MainActivity"
     tools:showIn="@layout/activity_main">
 
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/content_image_list"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:numColumns="3"/>
+
 </android.support.constraint.ConstraintLayout>
